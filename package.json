@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
+    "check:locales": "node scripts/check-locales.mjs",
     "tauri": "tauri"
   },
   "dependencies": {
